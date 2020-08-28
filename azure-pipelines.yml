@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 variables:
-  webRepository: 'hello-world'
+  webRepository: 'web'
   tag: '$(Build.BuildId)'
 
 stages:
